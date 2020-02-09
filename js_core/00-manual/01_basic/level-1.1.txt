@@ -1,0 +1,436 @@
+
+## Java-Script ##
+
+1. Java-Script
+
+1.01 - JavaScript inside HTML with <script> tag
+1.02 - JavaScript -- External JavaScript with <script> tag
+1.03 - comment inside code (code description)
+1.04 - console.*() - write information to console
+1.05 - document.write() -  write a string into HTML document.
+1.06 - DataType / variable
+
+- level 1.07 - DataType / variable - math
+- level 1.08 - String and escaped characters
+- level 1.09 - JavaScript variable Concatenation: 
+- level 1.10 - JavaScript variable Naming Rules:
+- level 1.11 - JavaScript JavaScript Reserved Words 
+- level 1.12 - JavaScript - Logical Operators
+- level 1.13 - JavaScript - Comparison operators 
+- level 1.14 - JavaScript - Conditional (Ternary) Operator
+-
+- 
+
+
+.
+.
+- 1. JavaScript - 
+
+-- JavaScript (JS) is a high-level, interpreted programming language that conforms to the ECMAScript specification. 
+   It is a language that is also characterized as dynamic, weakly typed, prototype-based and multi-paradigm.
+
+-- JavaScript is one of the most popular programming for webpages, process data, applications (mobile, desktop, games)
+   JavaScript is a client-side(frontend inside browser) -or- server-side(backend insdie server like: node.js) .
+
+-- A website frontend contains within it javaScript, html, css ...
+
+-- Web pages are not the only place where JavaScript is used. 
+   Many desktop and server programs use JavaScript (Node.js)
+   Some databases, (MongoDB, CouchDB) use JavaScript as their programming language.
+
+.
+.
+1.01 - JavaScript inside HTML with <script> tag
+
+-- JavaScript on the web lives inside the HTML document. 
+   In HTML, JavaScript code must be inserted between <script> and </script> tags:
+
+
+--- example: javascript inside html 
+
+    <script>
+        ...
+        ...
+    </script>
+
+    <!-- no java script error message -->
+    <noscript>
+        <h3>JavaScript is Required</h3>
+    </noscript>  
+
+
+-- JavaScript can be placed in the HTML page's <body> and <head> sections.
+
+-!- script in the <head> section, will be executed before the <body> is rendered. 
+
+-!- place your script at the end of the <body> tag.
+
+
+--- example: javaScript inside <head> tag, <body> tag
+
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <script>
+            console.log("head script - run first *");    
+        </script>        
+    </head>
+
+    <body>
+        <h1>
+        <script>
+            console.log("body script - run second ** ");    
+        </script>
+        <!--end of <body> body -->
+    </body>
+
+    </html>
+
+
+--- example: javaScript inside <head> tag, <body> tag
+    <js_1.1.html>
+
+
+-!- javaScript old <style> syntax:
+    <script language="javascript" type="text/javascript"> ... </script>
+
+.
+.
+1.02 - JavaScript -- External JavaScript with <script> tag
+
+-- Java Script can be placed in external files. (*.js)
+-- External scripts are useful and practical when the same code is used in a number of different web pages.
+-- Having JS scripts in separate files makes your code much readable and clearer.
+--- file extension (*.js)
+
+
+--- example: calling external javaScript file using <script> tag
+
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title> java-Script </title>
+
+        <!-- external java script file -->
+        <script src="java-script-html.js"></script>    
+    </head>
+
+    <body>
+    </body>
+    </html>
+
+
+--- example: extension files: ".html", ".js"
+
+    html file: "java-script-html.html"
+    css file: "java-script-css.css"
+    Javascript file:  "java-script-html.js"
+
+.
+.
+1.03 - comment inside code (code description)
+
+- create a comment for your code logic -and- functions/method 
+  to make your code more readable for other developers/programmers.
+
+
+// one line comment 
+
+
+/*
+* multi line comment
+*/
+
+
+--- example: comment inside code
+    <js_1.1.html>
+
+.
+.
+1.04 - console.*() - write information to console
+
+-- display data/output into console:
+
+    console.info("console.info");
+    console.log("console.log");
+    console.warn("console.warn");
+    console.error("console.error");        
+
+.
+.
+1.05 - document.write() -  write a string into HTML document.
+
+-- The document.write() function writes a string into our HTML document (TEXT and/or HTML). 
+
+-!- The document.write() method should be used only for testing. 
+
+--- example: 
+    document.write("<h1>document.write test </h1>");
+
+
+--- example: 
+    <ipt-1.1.html>
+
+-!- You can output almost everything in the webpage using JavaScript. 
+    Many JavaScript frameworks use this to create HTML pages.
+
+.
+.
+1.06 - DataType / variable
+
+-- JavaScript Variables are containers for storing data values. 
+   The value of a variable can change throughout the program.
+
+-- JavaScript is case sensitive. 
+--- example: the variables "lastName" and "lastname", are two different variables.
+
+-- assignment (=) - declare a variable and assign him a value.
+--- example: assign "number" variable a number value of 10
+    var number = 10;
+
+--- example: declare a variable without assignment. (declared value equals to "undefined")
+    var number; 
+
+-- JavaScript provides seven/7 different data types which are:
+   undefined, null, boolean, string, symbol, number, object.
+
+-- undefined --> not set yet
+-- null --> nothing 
+-- boolean --> true/false
+-- string --> text value
+-- number --> number value
+-- symbol --> unique value
+-- object --> key-value pair (key:value)
+
+-- var --> var can be used in all the program
+-- lest --> let can be used in code scope
+-- const --> const is a constants that never change.
+
+
+
+-- example: declare a variable and assign a value to him
+
+<script>
+    var variableVar = "var can be used in all the program ";
+    let variableLet = "let can be used in code scope";
+    const constTitle = "const is a constants that never change";
+    const pi = 3.14; //const is a constants that never change.
+
+    var temp;  // undefined //
+    var number = 33;
+
+    number = number + 22;
+    temp = "tempData";
+ 
+    console.log("number ==> " + number);
+    console.log("temp ==> " + temp);
+
+
+    if (stLastName ===  undefined )
+    {
+        console.log(" stLastName is " + typeof(stLastName) ) ; // undefined //
+    }
+</script>
+
+--- example: <js_1.2.html>
+
+
+-- variable camel Case --> camelCaseVariable
+
+--- example:
+
+<script>
+    var stBanner = "Welcome .";
+    var userAge = 55;
+    var isUserNew = true;
+</script>
+
+-- typeof - type of variable
+
+--- example:
+
+<script>
+    var stLastName = "jack"
+    typeof(stLastName);
+</script>
+
+--- example: <js_1.2.html>
+
+
+-!- JavaScript variables are declared, they have an initial value of "undefined".
+    If you do a mathematical operation on an "undefined" variable your result will be "NaN" (Not A Number).
+
+--- example:
+
+    // unassigned variable value //
+    var stName ;
+    var a;
+    console.log("stName === " + stName); //undefined
+    console.log("a += 2 === " + (a += 2) ); //NaN (Not A Number)
+
+.
+.
+- level 1.07 - DataType / variable - math
+
+--- example:
+
+<script>
+    num3 = num1 + num2;
+    num3 = num2 - num1;
+    num3 = num1 * num2;
+    num3 = num1 / num2;
+    num3 = num2 % num1;
+    num3 = num2 ** num1; //Exponentiation <^>
+
+    var numDecimal_1 = 1.1;
+    numDecimal_1 += 2.2;
+    numDecimal_1 -= 2.2;
+    numDecimal_1 *= 2.2;
+    numDecimal_1 /= 2.2;
+    numDecimal_1 %= 2.2;
+
+    num1 += 2;
+    num1 -= 2;
+    num1 *= 2;
+    num1 /= 2;
+    num1 %= 2;
+
+</script>    
+
+    --- example: <js_1.3.html> 
+
+.
+.
+- level 1.08 - String and escaped characters
+
+--- escaped characters are:
+
+\'   ' 
+\"   "
+\\   \
+\t   <tab>
+\n   <new line>
+\r   <carriage_return>
+\b   <backspace>
+\f   <form_feed>
+
+
+.
+.
+- level 1.09 - JavaScript variable Concatenation: 
+
+--- example:
+
+        let stConcatenationOne = " this is the first ";
+        let stConcatenationTwo = " this is the second ";
+        let stTotalConcatenation = stConcatenationOne + " :: " + stConcatenationTwo; //string1+string2
+
+        console.error("Concatenation example #1 \n" + stTotalConcatenation);
+        console.error("Concatenation example #2 \n" + (stConcatenationOne += stConcatenationTwo)); //string1+string2
+
+.
+.
+- level 1.10 - JavaScript variable Naming Rules:
+
+-- The first character must be a letter, an underscore (_), or a dollar sign ($). 
+   Subsequent characters may be letters, digits, underscores, or dollar signs.
+
+-- Numbers are not allowed as the first character.
+
+-- Variable names cannot include a mathematical or logical operator in the name. 
+   For instance, 2*something or this+that;
+
+-- JavaScript names must not contain spaces.
+
+-!- Hyphens are not allowed in JavaScript. It is reserved for subtractions.
+
+.
+.
+- level 1.11 - JavaScript Reserved Words 
+
+abstract , arguments , await* , boolean , break , byte , case , catch , 
+char , class* , const , continue , debugger , default , delete , do , 
+double , else , enum* , eval , export* , extends* , false , final , 
+finally , float , for , function , goto , if , implements , import* ,  
+in , instanceof , int , interface , let* , long , native , new , 
+null , package , private , protected , public , return , short , static ,  
+super* , switch , synchronized , this , throw , throws , transient , true , 
+try , typeof , var , void , volatile , while , with , yield
+
+
+.
+.
+- level 1.12 - JavaScript - Logical Operators
+
+-- Logical Operators (Boolean Operators), evaluate the expression and return "true" or "false".
+
+-- The table below explains the logical operators (AND, OR, NOT).
+
+-- Logical operators are used to determine the logic between variables or values.
+
+--- example: ( x = 6 ) , ( y = 3 ) 
+
+&&      and     (x < 10 && y > 1)    ==> true	
+||      or      (x == 5 || y == 5)   ==> false	
+!       not     !(x == y)            ==> true	
+
+
+.
+.
+- level 1.13 - JavaScript - Comparison operators 
+
+-- Comparison operators are used in logical statements to determine equality or difference between variables or values.
+
+--- example: ( x = 5 )
+
+
+==      equal to (x == 8) ==> false     
+        (x == 5) ==> true (x == "5") ==> "true"	
+
+===	    equal value and equal type      
+        (x === 5) ==> true  (x === "5") ==> false	
+
+!=      not equal
+        (x != 8) ==> true	
+
+!==     not equal value or not equal type	
+        (x !== 5) ==> false	
+        (x !== "5") ==>	true	
+        (x !== 8) ==> true	
+
+>       greater than
+        (x > 8) ==> false	
+
+<       less than 
+        (x < 8) ==> true	
+
+>=      greater than or equal to	
+        (x >= 8) ==> false	
+
+<=      less than or equal to	
+        (x <= 8) ==>true
+
+
+.
+.
+- level 1.14 - JavaScript - Conditional (Ternary) Operator
+
+-- JavaScript also contains a conditional operator that assigns a value to a variable based on some condition.
+
+   variablename = (condition) ? value1:value2 
+
+
+--- Example : 
+    x = 18;
+    var voteable = (age < x) ? "Too young":"Old enough";
+
+-- output:
+    (x = 18) ==> output ==> "Old enough"
+    (x = 16) ==> output ==> "Too young"
+
+
+
+
+
+
