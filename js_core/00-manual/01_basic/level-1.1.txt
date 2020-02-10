@@ -185,7 +185,7 @@
 -- JavaScript is case sensitive. 
 --- example: the variables "lastName" and "lastname", are two different variables.
 
--- assignment (=) - declare a variable and assign him a value.
+-- JavaScript assignment (=) - declare a variable and assign him a value.
 --- example: assign "number" variable a number value of 10
     var number = 10;
 
@@ -195,16 +195,18 @@
 -- JavaScript provides seven/7 different data types which are:
    undefined, null, boolean, string, symbol, number, object.
 
--- undefined --> not set yet
--- null --> nothing 
+-- undefined --> no value, not set/assigned yet 
+-- null --> null is nothing 
 -- boolean --> true/false
 -- string --> text value
 -- number --> number value
 -- symbol --> unique value
+              https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Symbol
+
 -- object --> key-value pair (key:value)
 
 -- var --> var can be used in all the program
--- lest --> let can be used in code scope
+-- let --> let can be used in code scope
 -- const --> const is a constants that never change.
 
 
