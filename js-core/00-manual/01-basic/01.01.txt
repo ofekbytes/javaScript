@@ -10,6 +10,10 @@
 1.05 - document.write() -  write a string into HTML document.
 1.06 - DataType / variable
 
+---TODO---TODO---
+ORDER THE EXAMPLE FILE/S NAMES
+-----------------
+
 - level 1.07 - DataType / variable - math
 - level 1.08 - String and escaped characters
 - level 1.09 - JavaScript variable Concatenation: 
@@ -88,7 +92,7 @@
 
 
 --- example: javaScript inside <head> tag, <body> tag
-    <js_1.1.html>
+    <02.01.html>
 
 
 -!- javaScript old <style> syntax:
@@ -123,9 +127,9 @@
 
 --- example: extension files: ".html", ".js"
 
-    html file: "java-script-html.html"
-    css file: "java-script-css.css"
-    Javascript file:  "java-script-html.js"
+    html file: "html-file.html"
+    css file: "css-file.css"
+    Javascript file:  "javaScript-file.js"
 
 .
 .
@@ -144,7 +148,7 @@
 
 
 --- example: comment inside code
-    <js_1.1.html>
+    <02.01.html>
 
 .
 .
@@ -170,7 +174,7 @@
 
 
 --- example: 
-    <ipt-1.1.html>
+    <02.01.html>
 
 -!- You can output almost everything in the webpage using JavaScript. 
     Many JavaScript frameworks use this to create HTML pages.
@@ -235,7 +239,7 @@
     }
 </script>
 
---- example: <js_1.2.html>
+--- example: <03.01.html>
 
 
 -- variable camel Case --> camelCaseVariable
@@ -257,7 +261,7 @@
     typeof(stLastName);
 </script>
 
---- example: <js_1.2.html>
+--- example: <03.01.html>
 
 
 -!- JavaScript variables are declared, they have an initial value of "undefined".
@@ -300,7 +304,7 @@
 
 </script>    
 
-    --- example: <js_1.3.html> 
+    --- example: <04.01.html> 
 
 .
 .
