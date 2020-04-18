@@ -30,17 +30,22 @@ ORDER THE EXAMPLE FILE/S NAMES
 .
 - 1. JavaScript - 
 
--- JavaScript (JS) is a high-level, interpreted programming language that conforms to the ECMAScript specification. 
-   It is a language that is also characterized as dynamic, weakly typed, prototype-based and multi-paradigm.
+- web components: 
+-- HTML -- content of web pages
+-- CSS -- layout/design of web pages.
+-- JavaScript -- behavior of web pages.
 
--- JavaScript is one of the most popular programming for webpages, process data, applications (mobile, desktop, games)
-   JavaScript is a client-side(frontend inside browser) -or- server-side(backend insdie server like: node.js) .
+- JavaScript used inside: 
+-- Web Pages
+-- Desktop 
+-- Server (Node.js) 
+-- Databases (MongoDB, CouchDB) as their programming language.
 
--- A website frontend contains within it javaScript, html, css ...
+- JavaScript (JS) is a high-level, interpreted programming language that conforms to the ECMAScript specification. 
+  JavaScript characterized as dynamic, weakly typed, prototype-based, multi-paradigm.
 
--- Web pages are not the only place where JavaScript is used. 
-   Many desktop and server programs use JavaScript (Node.js)
-   Some databases, (MongoDB, CouchDB) use JavaScript as their programming language.
+- JavaScript process data, applications (mobile, desktop, games)
+  JavaScript is using to client-side(frontend inside browser) -or- server-side(backend insdie server like: node.js) .
 
 .
 .
@@ -63,7 +68,7 @@ ORDER THE EXAMPLE FILE/S NAMES
     </noscript>  
 
 
--- JavaScript can be placed in the HTML page's <body> and <head> sections.
+-- JavaScript can be placed in the HTML page's <body></body> and <head></head> sections.
 
 -!- script in the <head> section, will be executed before the <body> is rendered. 
 
@@ -92,8 +97,8 @@ ORDER THE EXAMPLE FILE/S NAMES
 
 
 --- example: javaScript inside <head> tag, <body> tag
-    <02.01.html>
-
+    <02.01.js.template.html>
+    <02.02.js.template.html>
 
 -!- javaScript old <style> syntax:
     <script language="javascript" type="text/javascript"> ... </script>
@@ -125,7 +130,7 @@ ORDER THE EXAMPLE FILE/S NAMES
     </html>
 
 
---- example: extension files: ".html", ".js"
+--- example: extension files: ".html", ".css", ".js"
 
     html file: "html-file.html"
     css file: "css-file.css"
@@ -148,8 +153,8 @@ ORDER THE EXAMPLE FILE/S NAMES
 
 
 --- example: comment inside code
-    <02.01.html>
-
+    <02.01.js.template.html>
+    <02.02.js.template.html>    
 .
 .
 1.04 - console.*() - write information to console
@@ -174,8 +179,8 @@ ORDER THE EXAMPLE FILE/S NAMES
 
 
 --- example: 
-    <02.01.html>
-
+    <02.01.js.template.html>
+    <02.02.js.template.html>
 -!- You can output almost everything in the webpage using JavaScript. 
     Many JavaScript frameworks use this to create HTML pages.
 
@@ -210,7 +215,7 @@ ORDER THE EXAMPLE FILE/S NAMES
 -- object --> key-value pair (key:value)
 
 -- var --> var can be used in all the program
--- let --> let can be used in code scope
+-- let --> let can be used in code scope 
 -- const --> const is a constants that never change.
 
 
@@ -239,7 +244,7 @@ ORDER THE EXAMPLE FILE/S NAMES
     }
 </script>
 
---- example: <03.01.html>
+--- example: <03.01.js-variable.html>
 
 
 -- variable camel Case --> camelCaseVariable
@@ -261,7 +266,7 @@ ORDER THE EXAMPLE FILE/S NAMES
     typeof(stLastName);
 </script>
 
---- example: <03.01.html>
+--- example: <03.01.js-variable.html>
 
 
 -!- JavaScript variables are declared, they have an initial value of "undefined".

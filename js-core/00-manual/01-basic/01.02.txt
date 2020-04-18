@@ -3,15 +3,67 @@
 Java-Script
 .
 .
-- level 1.2.1: escaped characters are:
-- level 1.2.2: JavaScript JavaScript Reserved Words
-- level 1.2.3: JavaScript Arithmetic Operators 
-- level 1.2.4: JavaScript Assignment Operators 
-- level 1.2.5: JavaScript Comparison Operators 
+
+1. JavaScript template
+
+1.01 - escaped characters are:
+1.02 - JavaScript JavaScript Reserved Words
+1.03 - JavaScript Arithmetic Operators 
+1.04 - JavaScript Assignment Operators 
+1.05 - JavaScript Comparison Operators
+1.06 - 
+
 
 .
 .
-- level 1.2.1: escaped characters are:
+1. JavaScript template 
+
+- JavaScript Template Inside HTML file
+
+    <script>
+        ...
+        ...
+    </script>
+
+    <!-- no java script error message -->
+    <noscript>
+        <h3>JavaScript is Required</h3>
+    </noscript>  
+
+
+- JavaScript Template Inside HTML file
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>JavaScript Template</title>
+        <!-- head.script -->
+        <script>
+            var x = 156;
+            console.log("JavaScript inside head section");
+            console.log('x ==> ', x);
+        </script>
+    </head>
+
+    <body>
+        <!-- body.script -->
+        <script>
+            x++;
+            console.log("JavaScript inside head section");
+            console.log('x++ ==> ', x);
+        </script>
+    </body>
+
+</html>
+
+
+
+
+.
+.
+1.01 - escaped characters are:
 
 \'   ' 
 \"   "
@@ -25,7 +77,7 @@ Java-Script
 
 .
 .
-- level 1.2.2: JavaScript JavaScript Reserved Words
+1.02 - JavaScript JavaScript Reserved Words
 
 abstract , arguments , await* , boolean , break , byte , case , catch , 
 char , class* , const , continue , debugger , default , delete , do , 
@@ -38,7 +90,7 @@ try , typeof , var , void , volatile , while , with , yield
 
 .
 .
-- level 1.2.3: JavaScript Arithmetic Operators 
+1.03 - JavaScript Arithmetic Operators 
 
 +    Addition
 -    Subtraction
@@ -52,7 +104,7 @@ try , typeof , var , void , volatile , while , with , yield
 
 .
 .
-- level 1.2.4: JavaScript Assignment Operators 
+1.04 - JavaScript Assignment Operators 
 
 =    x = y    x = y
 +=   x += y   x = x + y
@@ -64,7 +116,7 @@ try , typeof , var , void , volatile , while , with , yield
 
 .
 .
-- level 1.2.5: JavaScript Comparison Operators 
+1.05 - JavaScript Comparison Operators 
 
 ==    equal to
 ===   equal value and equal type
@@ -76,3 +128,7 @@ try , typeof , var , void , volatile , while , with , yield
 <=    less than or equal to
 ?     ternary operator
 
+
+.
+.
+1.06 - 

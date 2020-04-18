@@ -1,0 +1,29 @@
+
+
+---[JavaScripts links]---
+
+
+//mozilla
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide
+
+
+https://www.w3schools.com/js/default.asp
+
+
+// js - category
+https://www.w3schools.com/jsref/default.asp
+
+// js - alphabet
+https://www.w3schools.com/jsref/jsref_reference.asp
+
+
+//dom
+https://www.w3schools.com/jsref/dom_obj_document.asp
+
+
+//date
+https://www.w3schools.com/jsref/jsref_obj_date.asp
+
+//json
+https://www.w3schools.com/jsref/jsref_obj_json.asp
+
