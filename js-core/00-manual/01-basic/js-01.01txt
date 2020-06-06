@@ -56,15 +56,28 @@ ORDER THE EXAMPLE FILE/S NAMES
 
 --- example: javascript inside html 
 
-    <script>
-        ...
-        ...
-    </script>
+    <!DOCTYPE html>
+    <html lang="en">
 
-    <!-- no java script error message -->
-    <noscript>
-        <h3>JavaScript is Required</h3>
-    </noscript>  
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>JavaScript</title>
+    </head>
+
+    <body>
+        <script>
+            // ..js-command..
+            // ..js-command..
+        </script>
+
+        <!-- "noscript" - no java script error message -->
+        <noscript>
+            <h3>JavaScript is Required</h3>
+        </noscript>
+    </body>
+
+    </html>
 
 
 --- example: javascript inside html 
@@ -80,18 +93,19 @@ ORDER THE EXAMPLE FILE/S NAMES
 
     <!DOCTYPE html>
     <html lang="en">
+
     <head>
         <script>
             console.log("head script - run first *");    
-        </script>        
+        </script>
     </head>
 
     <body>
         <h1>
-        <script>
-            console.log("body script - run second ** ");    
-        </script>
-        <!--end of <body> body -->
+            <script>
+                console.log("body script - run second ** ");    
+            </script>
+            <!--end of <body> body -->
     </body>
 
     </html>
