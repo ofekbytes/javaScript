@@ -1,34 +1,33 @@
 
 ## Java-Script ##
 
-1. Java-Script
+01. JavaScript
 
-1.01 - JavaScript inside HTML with <script> tag
-1.02 - JavaScript -- External JavaScript with <script> tag
-1.03 - comment inside code (code description)
-1.04 - console.*() - write information to console
-1.05 - document.write() -  write a string into HTML document.
-1.06 - DataType / variable
+02. JavaScript inside HTML with <script> tag
+03. JavaScript -- External JavaScript with <script> tag
+04. comment inside code (code description)
+05. console.*() - write information to console
+06. document.write() -  write a string into HTML document.
+07. DataType / variable
 
 ---TODO---TODO---
 ORDER THE EXAMPLE FILE/S NAMES
 -----------------
-
-- level 1.07 - DataType / variable - math
-- level 1.08 - String and escaped characters
-- level 1.09 - JavaScript variable Concatenation: 
-- level 1.10 - JavaScript variable Naming Rules:
-- level 1.11 - JavaScript JavaScript Reserved Words 
-- level 1.12 - JavaScript - Logical Operators
-- level 1.13 - JavaScript - Comparison operators 
-- level 1.14 - JavaScript - Conditional (Ternary) Operator
+08. DataType / variable - math
+09. String and escaped characters
+10. JavaScript variable Concatenation
+11. JavaScript variable Naming Rules
+12. JavaScript Reserved Words 
+13. JavaScript - Logical Operators
+14. JavaScript - Comparison operators 
+15 - JavaScript - Conditional (Ternary) Operator
 -
 - 
 
 
 .
 .
-- 1. JavaScript - 
+01. JavaScript
 
 - web components: 
 -- HTML -- content of web pages
@@ -49,7 +48,7 @@ ORDER THE EXAMPLE FILE/S NAMES
 
 .
 .
-1.01 - JavaScript inside HTML with <script> tag
+02. JavaScript inside HTML with <script> tag
 
 -- JavaScript on the web lives inside the HTML document. 
    In HTML, JavaScript code must be inserted between <script> and </script> tags:
@@ -68,10 +67,12 @@ ORDER THE EXAMPLE FILE/S NAMES
     </noscript>  
 
 
+--- example: javascript inside html 
+    <02.01-script-tag.html>
+
+
 -- JavaScript can be placed in the HTML page's <body></body> and <head></head> sections.
-
 -!- script in the <head> section, will be executed before the <body> is rendered. 
-
 -!- place your script at the end of the <body> tag.
 
 
@@ -97,15 +98,20 @@ ORDER THE EXAMPLE FILE/S NAMES
 
 
 --- example: javaScript inside <head> tag, <body> tag
-    <02.01.js.template.html>
-    <02.02.js.template.html>
+    <02.02-script-tag.html>
+
+/// delete.
+///--- example: javaScript inside <head> tag, <body> tag
+///    <02.01.js.template.html>
+///    <02.02.js.template.html>
+
 
 -!- javaScript old <style> syntax:
     <script language="javascript" type="text/javascript"> ... </script>
 
 .
 .
-1.02 - JavaScript -- External JavaScript with <script> tag
+03. JavaScript -- External JavaScript with <script> tag
 
 -- Java Script can be placed in external files. (*.js)
 -- External scripts are useful and practical when the same code is used in a number of different web pages.
@@ -138,7 +144,7 @@ ORDER THE EXAMPLE FILE/S NAMES
 
 .
 .
-1.03 - comment inside code (code description)
+04. comment inside code (code description)
 
 - create a comment for your code logic -and- functions/method 
   to make your code more readable for other developers/programmers.
@@ -151,13 +157,13 @@ ORDER THE EXAMPLE FILE/S NAMES
 * multi line comment
 */
 
-
---- example: comment inside code
-    <02.01.js.template.html>
-    <02.02.js.template.html>    
+/// delete.
+///--- example: javaScript inside <head> tag, <body> tag
+///    <02.01.js.template.html>
+///    <02.02.js.template.html>
 .
 .
-1.04 - console.*() - write information to console
+05. console.*() - write information to console
 
 -- display data/output into console:
 
@@ -168,7 +174,7 @@ ORDER THE EXAMPLE FILE/S NAMES
 
 .
 .
-1.05 - document.write() -  write a string into HTML document.
+06. document.write() -  write a string into HTML document.
 
 -- The document.write() function writes a string into our HTML document (TEXT and/or HTML). 
 
@@ -179,14 +185,18 @@ ORDER THE EXAMPLE FILE/S NAMES
 
 
 --- example: 
-    <02.01.js.template.html>
-    <02.02.js.template.html>
+/// delete.
+///--- example: javaScript inside <head> tag, <body> tag
+///    <02.01.js.template.html>
+///    <02.02.js.template.html>
+
+
 -!- You can output almost everything in the webpage using JavaScript. 
     Many JavaScript frameworks use this to create HTML pages.
 
 .
 .
-1.06 - DataType / variable
+07. DataType / variable
 
 -- JavaScript Variables are containers for storing data values. 
    The value of a variable can change throughout the program.
@@ -244,7 +254,7 @@ ORDER THE EXAMPLE FILE/S NAMES
     }
 </script>
 
---- example: <03.01.js-variable.html>
+--- example: <07.01.js-variable.html>
 
 
 -- variable camel Case --> camelCaseVariable
@@ -266,7 +276,7 @@ ORDER THE EXAMPLE FILE/S NAMES
     typeof(stLastName);
 </script>
 
---- example: <03.01.js-variable.html>
+--- example: <07.01.js-variable.html>
 
 
 -!- JavaScript variables are declared, they have an initial value of "undefined".
@@ -282,7 +292,7 @@ ORDER THE EXAMPLE FILE/S NAMES
 
 .
 .
-- level 1.07 - DataType / variable - math
+08. DataType / variable - math
 
 --- example:
 
@@ -309,11 +319,11 @@ ORDER THE EXAMPLE FILE/S NAMES
 
 </script>    
 
-    --- example: <04.01.html> 
+    --- example: <08.01.html> 
 
 .
 .
-- level 1.08 - String and escaped characters
+09. String and escaped characters
 
 --- escaped characters are:
 
@@ -329,7 +339,7 @@ ORDER THE EXAMPLE FILE/S NAMES
 
 .
 .
-- level 1.09 - JavaScript variable Concatenation: 
+10. JavaScript variable Concatenation
 
 --- example:
 
@@ -342,7 +352,7 @@ ORDER THE EXAMPLE FILE/S NAMES
 
 .
 .
-- level 1.10 - JavaScript variable Naming Rules:
+11. JavaScript variable Naming Rules
 
 -- The first character must be a letter, an underscore (_), or a dollar sign ($). 
    Subsequent characters may be letters, digits, underscores, or dollar signs.
@@ -358,7 +368,7 @@ ORDER THE EXAMPLE FILE/S NAMES
 
 .
 .
-- level 1.11 - JavaScript Reserved Words 
+12. JavaScript Reserved Words
 
 abstract , arguments , await* , boolean , break , byte , case , catch , 
 char , class* , const , continue , debugger , default , delete , do , 
@@ -372,7 +382,7 @@ try , typeof , var , void , volatile , while , with , yield
 
 .
 .
-- level 1.12 - JavaScript - Logical Operators
+13. JavaScript - Logical Operators
 
 -- Logical Operators (Boolean Operators), evaluate the expression and return "true" or "false".
 
@@ -389,7 +399,7 @@ try , typeof , var , void , volatile , while , with , yield
 
 .
 .
-- level 1.13 - JavaScript - Comparison operators 
+14. JavaScript - Comparison operators 
 
 -- Comparison operators are used in logical statements to determine equality or difference between variables or values.
 
@@ -425,7 +435,7 @@ try , typeof , var , void , volatile , while , with , yield
 
 .
 .
-- level 1.14 - JavaScript - Conditional (Ternary) Operator
+15 - JavaScript - Conditional (Ternary) Operator
 
 -- JavaScript also contains a conditional operator that assigns a value to a variable based on some condition.
 
