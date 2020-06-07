@@ -1,0 +1,8 @@
+.grid {
+    display: flex;
+    flex-wrap: warp;
+
+    /*  ( 3 x 4 square grid ) */
+    height: 300px;
+    width: 400px;
+}
