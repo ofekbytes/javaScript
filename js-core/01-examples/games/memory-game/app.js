@@ -94,6 +94,6 @@ function createBoard() {
 // call createBoard() funtion
 createBoard();
 
-
+// "TODO: rsb.png  "  - create square border (white+black+white stirpe)
 
 });

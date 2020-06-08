@@ -114,11 +114,6 @@ ORDER THE EXAMPLE FILE/S NAMES
 --- example: javaScript inside <head> tag, <body> tag
     <02.02-script-tag.html>
 
-/// delete.
-///--- example: javaScript inside <head> tag, <body> tag
-///    <02.01.js.template.html>
-///    <02.02.js.template.html>
-
 
 -!- javaScript old <style> syntax:
     <script language="javascript" type="text/javascript"> ... </script>
@@ -139,10 +134,10 @@ ORDER THE EXAMPLE FILE/S NAMES
     <html lang="en">
     <head>
         <meta charset="UTF-8">
-        <title> java-Script </title>
+        <title>js-external</title>
 
         <!-- external java script file -->
-        <script src="java-script-html.js"></script>    
+        <script src="03.01-js.external.js"></script>    
     </head>
 
     <body>
@@ -152,9 +147,9 @@ ORDER THE EXAMPLE FILE/S NAMES
 
 --- example: extension files: ".html", ".css", ".js"
 
-    html file: "html-file.html"
-    css file: "css-file.css"
-    Javascript file:  "javaScript-file.js"
+    html file: [.html] : "html-file.html"
+    css file: [.css] : "css-file.css"
+    Javascript file: [.js] : "javaScript-file.js"
 
 .
 .
@@ -171,10 +166,9 @@ ORDER THE EXAMPLE FILE/S NAMES
 * multi line comment
 */
 
-/// delete.
-///--- example: javaScript inside <head> tag, <body> tag
-///    <02.01.js.template.html>
-///    <02.02.js.template.html>
+--- example: javaScript comment
+    <04.01-js.comment.html>
+    <04.01-js.comment.js>
 .
 .
 05. console.*() - write information to console
