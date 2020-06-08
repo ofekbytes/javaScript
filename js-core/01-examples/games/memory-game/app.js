@@ -2,56 +2,56 @@
 document.addEventListener('DOMContentLoaded',() =>  {
 
 // // ---[Card Option]----//
-
+const baseUrl = "https://ofekbytes.github.io/assets/icons/png/100x100-pixels/";
 // // ---[array of cards with names]---
 const cardArray = [
     {
         name: "40",
-        img: "https://ofekbytes.github.io/assets/icons/png/100x100-pixels/40.png"
+        img: baseUrl + "40.png"
     },
     {
         name: "40",
-        img: "https://ofekbytes.github.io/assets/icons/png/100x100-pixels/40.png"
+        img: baseUrl + "40.png"
     },
     {
         name: "41",
-        img: "https://ofekbytes.github.io/assets/icons/png/100x100-pixels/41.png"
+        img: baseUrl + "41.png"
     },
     {
         name: "41",
-        img: "https://ofekbytes.github.io/assets/icons/png/100x100-pixels/41.png"
+        img: baseUrl + "41.png"
     },
     {
         name: "42",
-        img: "https://ofekbytes.github.io/assets/icons/png/100x100-pixels/42.png"
+        img: baseUrl + "42.png"
     },
     {
         name: "42",
-        img: "https://ofekbytes.github.io/assets/icons/png/100x100-pixels/42.png"
+        img: baseUrl + "42.png"
     },
     {
         name: "43",
-        img: "https://ofekbytes.github.io/assets/icons/png/100x100-pixels/43.png"
+        img: baseUrl + "43.png"
     },
     {
         name: "43",
-        img: "https://ofekbytes.github.io/assets/icons/png/100x100-pixels/43.png"
+        img: baseUrl + "43.png"
     },
     {
         name: "44",
-        img: "https://ofekbytes.github.io/assets/icons/png/100x100-pixels/44.png"
+        img: baseUrl + "44.png"
     },
     {
         name: "44",
-        img: "https://ofekbytes.github.io/assets/icons/png/100x100-pixels/44.png"
+        img: baseUrl + "44.png"
     },
     {
         name: "45",
-        img: "https://ofekbytes.github.io/assets/icons/png/100x100-pixels/45.png"
+        img: baseUrl + "45.png"
     },
     {
         name: "45",
-        img: "https://ofekbytes.github.io/assets/icons/png/100x100-pixels/45.png"
+        img: baseUrl + "45.png"
     }
 ];
 
@@ -72,7 +72,7 @@ function createBoard() {
         var card = document.createElement('img');
 
         // each card set attribute 
-        card.setAttribute ('src','https://ofekbytes.github.io/assets/icons/png/100x100-pixels/rs4.png');
+        card.setAttribute ('src',baseUrl + 'rse-1.png');
 
         // each card have data-id (0-1), 12 cards
         card.setAttribute('data-id',i)
