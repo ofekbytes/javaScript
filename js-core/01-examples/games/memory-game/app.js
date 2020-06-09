@@ -87,7 +87,7 @@ function createBoard() {
         // 2. // for each card i will create an image element
         var card = document.createElement('img');
 
-        // each card set attribute 
+        // each card set attribute (background card)
         card.setAttribute ('src',baseUrl + 'rse-1.png');
 
         // each card have data-id (0-1), 12 cards
@@ -157,22 +157,33 @@ function checkForMatch() {
 
     console.log(cardsChosen[0]  + " ==== " + cardsChosen[1] );
 
-    if (cardsChosen[0] === cardsChosen[1]) {
+    if (optionOneId == optionTwoId)
+    {
+        cards[optionOneId].setAttribute('src',baseUrl + 'rse-1.png');
+        cards[optionTwoId].setAttribute('src',baseUrl + 'rse-1.png');
+        // alert('clicked twice the same card');
+
+    }
+    else if (cardsChosen[0] === cardsChosen[1]) {
         //True - equal value is true (match)
-        alert("Match");
+        // alert("Match");
 
         // set white image 
         cards[optionOneId].setAttribute('src', baseUrl + 'rs1.png');
         cards[optionTwoId].setAttribute('src', baseUrl + 'rs1.png');
 
-        // cardsWon array and push the cardChosen to be stored in the array.
-        cardsWon.push(cardChosen);
+        // remove event
+        cards[optionOneId].removeEventListener('click',flipcard);
+        cards[optionTwoId].removeEventListener('click',flipcard);
+
+        // cardsWon array and push the cardsChosen to be stored in the array.
+        cardsWon.push(cardsChosen);
     }
     else {
         // False - no match.
         cards[optionOneId].setAttribute('src',baseUrl + 'rse-1.png');
         cards[optionTwoId].setAttribute('src',baseUrl + 'rse-1.png');
-        alert("try again");
+        // alert("try again");
     }
     // clear arrays
     cardsChosen = [];
@@ -182,7 +193,7 @@ function checkForMatch() {
     resultDisplay.textContent = cardsWon.length;
 
     // check if game is over (cards Won === card Array / 2 = (6 wins) )
-    if(cardsWon.length === cardArray / 2) {
+    if(cardsWon.length === cardArray.length / 2) {
         resultDisplay.textContent = 'you Won';
     }
 }
@@ -191,6 +202,17 @@ function checkForMatch() {
 // call createBoard() funtion
 createBoard();
 
+
 // "TODO: rsb.png  "  - create square border (white+black+white stirpe)
 
+
+document.getElementById("new").addEventListener("click", function(){
+    // createBoard();
+    // DOMContentLoaded();
+    location.reload();
+//    document.getElementById("output").innerHTML = "new games will be started";
+console.log("test");
 });
+
+
+}); //end program
