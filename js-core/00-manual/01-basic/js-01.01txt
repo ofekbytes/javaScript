@@ -166,25 +166,32 @@ ORDER THE EXAMPLE FILE/S NAMES
 * multi line comment
 */
 
+
 --- example: javaScript comment
     <04.01-js.comment.html>
     <04.01-js.comment.js>
+
 .
 .
 05. console.*() - write information to console
 
--- display data/output into console:
+-- display data/output into console (info/log/warn/error)
 
     console.info("console.info");
     console.log("console.log");
     console.warn("console.warn");
     console.error("console.error");        
 
+
+--- example: javaScript console (info/log/warn/error)
+    <05.01-js.console.html>
+
 .
 .
 06. document.write() -  write a string into HTML document.
 
--- The document.write() function writes a string into our HTML document (TEXT and/or HTML). 
+-- The document.write() function writes a text/string into our HTML document.
+   the text/string can contain html tags to format the text inside the html.
 
 -!- The document.write() method should be used only for testing. 
 
@@ -192,12 +199,9 @@ ORDER THE EXAMPLE FILE/S NAMES
     document.write("<h1>document.write test </h1>");
 
 
---- example: 
-/// delete.
-///--- example: javaScript inside <head> tag, <body> tag
-///    <02.01.js.template.html>
-///    <02.02.js.template.html>
-
+--- example: document.write
+    <06.01-js.document.html>
+    <06.02-js.document.html>
 
 -!- You can output almost everything in the webpage using JavaScript. 
     Many JavaScript frameworks use this to create HTML pages.
