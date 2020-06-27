@@ -185,7 +185,7 @@ ORDER THE EXAMPLE FILE/S NAMES
 
 --- example: javaScript console (info/log/warn/error)
     <05.01-js.console.html>
-
+    <05.01-js.console.js>
 .
 .
 06. document.write() -  write a string into HTML document.
@@ -288,7 +288,8 @@ ORDER THE EXAMPLE FILE/S NAMES
     typeof(stLastName);
 </script>
 
---- example: <07.01.js-variable.html>
+--- example: <07.02.js-variable.html>  
+    /////////////TODO////// contiue here
 
 
 -!- JavaScript variables are declared, they have an initial value of "undefined".
@@ -434,7 +435,7 @@ try , typeof , var , void , volatile , while , with , yield
 
 >       greater than
         (x > 8) ==> false	
-
+ 
 <       less than 
         (x < 8) ==> true	
 
@@ -461,6 +462,36 @@ try , typeof , var , void , volatile , while , with , yield
 -- output:
     (x = 18) ==> output ==> "Old enough"
     (x = 16) ==> output ==> "Too young"
+
+-- 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
