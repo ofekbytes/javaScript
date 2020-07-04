@@ -3,7 +3,8 @@
 ---[JavaScripts links]---
 
 
-//mozilla
+// mozilla
+https://developer.mozilla.org/en-US/docs/Web/JavaScript
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide
 
 
@@ -17,13 +18,26 @@ https://www.w3schools.com/jsref/default.asp
 https://www.w3schools.com/jsref/jsref_reference.asp
 
 
-//dom
+// dom
+https://developer.mozilla.org/en-US/docs/Glossary/DOM
+
 https://www.w3schools.com/jsref/dom_obj_document.asp
 
 
-//date
+// date
 https://www.w3schools.com/jsref/jsref_obj_date.asp
 
-//json
+
+// json
 https://www.w3schools.com/jsref/jsref_obj_json.asp
+
+
+// api
+https://developer.mozilla.org/en-US/docs/Web/API
+
+https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener
+
+
+// 
+
 

@@ -208,7 +208,7 @@ ORDER THE EXAMPLE FILE/S NAMES
 
 .
 .
-07. DataType / variable
+07. DataType / variableq
 
 -- JavaScript Variables are containers for storing data values. 
    The value of a variable can change throughout the program.
@@ -220,7 +220,7 @@ ORDER THE EXAMPLE FILE/S NAMES
 --- example: assign "number" variable a number value of 10
     var number = 10;
 
---- example: declare a variable without assignment. (declared value equals to "undefined")
+--- example: declare a variable without assignment. (variable declared value is equals to "undefined")
     var number; 
 
 -- JavaScript provides seven/7 different data types which are:
@@ -258,12 +258,6 @@ ORDER THE EXAMPLE FILE/S NAMES
  
     console.log("number ==> " + number);
     console.log("temp ==> " + temp);
-
-
-    if (stLastName ===  undefined )
-    {
-        console.log(" stLastName is " + typeof(stLastName) ) ; // undefined //
-    }
 </script>
 
 --- example: <07.01.js-variable.html>
