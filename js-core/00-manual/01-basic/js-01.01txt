@@ -9,12 +9,14 @@
 05. console.*() - write information to console
 06. document.write() -  write a string into HTML document.
 07. DataType / variable
+08. DataType / variable - math
+09. String and escaped characters
+
 
 ---TODO---TODO---
 ORDER THE EXAMPLE FILE/S NAMES
 -----------------
-08. DataType / variable - math
-09. String and escaped characters
+
 10. JavaScript variable Concatenation
 11. JavaScript variable Naming Rules
 12. JavaScript Reserved Words 
@@ -208,7 +210,7 @@ ORDER THE EXAMPLE FILE/S NAMES
 
 .
 .
-07. DataType / variableq
+07. DataType / variable
 
 -- JavaScript Variables are containers for storing data values. 
    The value of a variable can change throughout the program.
@@ -233,14 +235,12 @@ ORDER THE EXAMPLE FILE/S NAMES
 -- number --> number value
 -- symbol --> unique value
               https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Symbol
-
 -- object --> key-value pair (key:value)
+
 
 -- var --> var can be used in all the program
 -- let --> let can be used in code scope 
 -- const --> const is a constants that never change.
-
-
 
 -- example: declare a variable and assign a value to him
 
@@ -273,7 +273,10 @@ ORDER THE EXAMPLE FILE/S NAMES
     var isUserNew = true;
 </script>
 
--- typeof - type of variable
+
+.
+.
+-- typeof() - type of variable
 
 --- example:
 
@@ -283,7 +286,6 @@ ORDER THE EXAMPLE FILE/S NAMES
 </script>
 
 --- example: <07.02.js-variable.html>  
-    /////////////TODO////// contiue here
 
 
 -!- JavaScript variables are declared, they have an initial value of "undefined".
@@ -301,9 +303,99 @@ ORDER THE EXAMPLE FILE/S NAMES
 .
 08. DataType / variable - math
 
---- example:
+.
+.
+-- arithmetic operators:
+ 
+   < + >  addition
+   < - >  subtraction
+   < * >  multiplication
+   < / >  division
+   < % >  modulo
+
+--- example: arithmetic operators
+
+    console.warn('arithmetic operators');
+    num3 = num1 + num2;
+    console.log(num1 + " + " + num2 + " = " + num3);
+    num3 = num2 - num1;
+    console.log(num2 + " - " + num1 + " = " + num3);
+    num3 = num1 * num2;
+    console.log(num1 + " * " + num2 + " = " + num3);
+    num3 = num2 / num1;
+    console.log(num2 + " / " + num1 + " = " + num3);
+    num4 = 9;
+    num3 = num2 % num4;
+    console.log(num2 + " % " + num4 + " = " + num3);
+
+.
+.
+-- assignment operators:
+
+   < += >  addition
+   < -= >  subtraction
+   < *= >  multiplication
+   < /= >  division
+   < %= >  modulo
+
+--- example: assignment operators
+
+    console.warn('assignment operators');
+    console.log("num1 -= 2 == " + (num1 -= 2));
+    console.log("num1 *= 2 == " + (num1 *= 2));
+    console.log("num1 /= 2 == " + (num1 /= 2));
+    console.log("num1 %= 2 == " + (num1 %= 2));
+
+.
+.
+-- Increment / decrement  Operators:
+   increment / decrement operator provides a more convenient and compact way to increase or decrease the value of a variable by one.
+   x++; x--;
+   ++x; --x;
+
+--- example: Increment / decrement  Operators
+
+    let test = 2;
+    console.warn("ncrement / decrement  Operators")
+    console.log("test == " + test);
+    console.log("test++ == " + test++);
+    console.log("test-- == " + test--);
+    console.log("++test == " + ++test);
+    console.log("--test == " + --test);
+
+.
+.
+-- Prefix & Postfix:
+
+-- prefix and postfix, used with both the increment and decrement operators.
+
+--- prefix operator appears before the operand. 
+	++x;
+	--x;
+	
+--- postfix operator appears after the operand. 
+	x++;
+	x--;
+
+--- example: Prefix & Postfix
+
+    let test = 2;
+    console.warn("Prefix & Postfix")
+    console.log("test == " + test);
+
+    console.warn("Prefix")
+    console.log("++test == " + ++test);
+    console.log("--test == " + --test);
+
+    console.warn("Postfix")
+    console.log("test++ == " + test++);
+    console.log("test-- == " + test--);
+
+--- example: math operators
 
 <script>
+
+// assignment operators
     num3 = num1 + num2;
     num3 = num2 - num1;
     num3 = num1 * num2;
@@ -324,9 +416,16 @@ ORDER THE EXAMPLE FILE/S NAMES
     num1 /= 2;
     num1 %= 2;
 
+    ++num;
+    --num;
+    num++;
+    num--;
+
+
 </script>    
 
-    --- example: <08.01.html> 
+--- example: variable math - arithmetic operators
+    <08.01.variable_math.html> 
 
 .
 .
@@ -334,15 +433,18 @@ ORDER THE EXAMPLE FILE/S NAMES
 
 --- escaped characters are:
 
-\'   ' 
-\"   "
-\\   \
-\t   <tab>
-\n   <new line>
-\r   <carriage_return>
-\b   <backspace>
-\f   <form_feed>
+\'    '    <Single quote>
+\"    "    <Double quote>
+\\    \    <Backslash>
+\t    <tab>
+\n    <new line>
+\r    <carriage_return>
+\b    <backspace>
+\f    <form_feed>
+\v    <Vertical Tabulator>
 
+--- example: escaped characters
+    <09.01.escaped_characters.html>
 
 .
 .
