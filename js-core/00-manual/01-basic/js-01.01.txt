@@ -238,7 +238,7 @@ ORDER THE EXAMPLE FILE/S NAMES
 
 --- example: declare a variable and assign a value to him
 <07.01.js-variable.html>
-
+<07.01.js-variable.js>
 
 .
 .
@@ -267,6 +267,10 @@ ORDER THE EXAMPLE FILE/S NAMES
     var isUserNew = true;
 </script>
 
+--- example: variable name
+    <07.02.js-variable.html>
+    <07.02.js-variable.js>
+
 -!- javaScript variable name can be any name except javaScript reserved words. 
     see the "07.03. JavaScript Reserved Words" chapter.
 
@@ -283,7 +287,9 @@ null , package , private , protected , public , return , short , static ,
 super* , switch , synchronized , this , throw , throws , transient , true , 
 try , typeof , var , void , volatile , while , with , yield
 
-
+--- example: variable name
+    <07.03.js-variable.html>
+    <07.03.js-variable.js>
 
 .
 .
@@ -300,6 +306,10 @@ try , typeof , var , void , volatile , while , with , yield
 -- symbol --> unique value
               https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Symbol
 -- object --> key-value pair (key:value)
+
+--- example: variable name
+    <07.04.js-variable.html>
+    <07.04.js-variable.js>
 
 .
 .
