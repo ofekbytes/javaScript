@@ -7,28 +7,26 @@
     <title>variable</title>
 
     <script>
+        var variableVar = "var can be used in all the program ";
+        let variableLet = "let can be used in code scope";
+        const constTitle = "const is a constants that never change";
+        const pi = 3.14; //const is a constants that never change.
 
-        var varUndefined;  // undefined //
-        var varNull = null;
-        var varBoolean = true;
-        var varText = "var can be used in all the program ";
-        let letText = "let can be used in code scope";
-        const constText = "const is a constants that never change";
-        const constpi = 3.14;  // const is a constants that never change.
+        var temp;  // undefined //
+        console.log('variable temp is ' +  temp);
 
+        // declare a variable and assign it a value
         var number = 33;
 
-        console.warn('JavaScript 7 different data types:');
-        console.warn('undefined, null, boolean, string, symbol, number, object. ');
-        console.log('01. variableNotDeclared ==> ' +  typeof(variableNotDeclared));
-        console.log('02. varUndefined ==> ' +  typeof(varUndefined) + ' ==> ' + varUndefined);   
-        console.log('03. varNull ==> ' +  typeof(varNull) + ' ==> ' + varNull);
-        console.log('04. varBoolean ==> ' +  typeof(varBoolean) + ' ==> ' + varBoolean);
-        console.log('05. varText ==> ' +  typeof(varText) + ' ==> ' + varText);
-        console.log('06. letText ==> ' +  typeof(letText) + ' ==> ' + letText);
-        console.log('07. constText ==> ' +  typeof(constText) + ' ==> ' + constText);
-        console.log('08. constpi ==> ' +  typeof(constpi) + ' ==> ' + constpi);
-        console.log('09. number ==> ' +  typeof(number) + ' ==> ' + number);
+        // assign new value - number
+        number = number + 22;
+.
+        // assign new value - text
+        temp = "tempData";
+
+        // pring 2 variable: number, temp.
+        console.log("number ==> " + number);
+        console.log("temp ==> " + temp);
         
     </script>
 </head>
