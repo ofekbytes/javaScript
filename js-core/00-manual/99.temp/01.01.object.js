@@ -7,11 +7,15 @@ const user = {
     hobbies: ["sea", "basketball", "soccer", "tennis"],
     foods: [{type:"fruit", name:"apple"},
             {type:"fruit", name:"grapes"} 
-           ]
+           ],
+    fnWelcome:()=> {
+        console.error("Welcome, i am using Function inside Object");
+    }
 }
 
-
 var ts = '&nbsp;&nbsp;&nbsp;'
+
+user.fnWelcome();
 
 document.write('<div>one/1 object three/3 properties</div>');
 document.write('<div> private name:' + ts + '' + user.pname + '</div>');
@@ -36,8 +40,4 @@ document.write('<hr>');
 
 console.warn('<div>one/1 object, three/3 properties, one/1 array </div>');
 console.log(user);
-
-
-// links :
-https://www.youtube.com/watch?v=DjT2BlAN8EQ
-
+console.log(user.foods);
