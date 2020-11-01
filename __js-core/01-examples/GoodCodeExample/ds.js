@@ -36,13 +36,22 @@ function showAnimal3(animal) {
 
 
 // ShowAnimal();
+console.log('%c___Show Animal Basic, property keyword___', 'color: red; font-weight: bold');
 console.log( showAnimal(animal) );
 
 
 // showAnimal2();
+console.log('%c___Show Animal, copy object property to local variable___', 'color: red; font-weight: bold');
 console.log( showAnimal2(animal) );
 
 
 // showAnimal3();
+console.log('%c___Show Animal, pass all object to local variable by name___', 'color: red; font-weight: bold');
 console.log( showAnimal3(animal) );
 
+
+
+// test zone
+//
+// console.table(animal);
+// console.table( animal.name, animal.type, animal.age );
