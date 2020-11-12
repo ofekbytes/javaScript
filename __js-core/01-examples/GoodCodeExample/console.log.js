@@ -66,7 +66,18 @@ console.timeEnd('lp');
 console.log('\n\n%c___submit line___', 'color: red; font-weight: bold');
 
 const submit = () => console.trace('submit the data from line');
-
+submit();
 submit();
 
-submit();
+
+function runWhere()  {
+    var x = 0;
+    for(x=0; x<5;x++) {
+        console.log(x+1 );
+    }
+
+    console.trace('tace that');
+}
+
+runWhere();
+runWhere();

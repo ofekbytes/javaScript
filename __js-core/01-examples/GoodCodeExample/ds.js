@@ -3,6 +3,12 @@
 **
 */
 
+/**
+ * 'text name' -or- 'text name ' + animal.name
+ * "text name" -or- "text name " + animal.name 
+ * ` ${animal.name} `
+ */
+
 // object with animal data
 const animal = {
     name: 'uri',
@@ -56,7 +62,7 @@ function showAnimal5(animal) {
     // name = animal.name; type = animal.type; age = animal.age
     const {name, type, age} = animal;
 
-    return `:::Animal #5 Data::: ' + name + ' , ' + $type + ' , ' + age` ;
+    return `:::Animal #5 Data::: ' + ${name} + ' , ' + ${type} + ' , ' + ${age}` ;
 }
 
 
