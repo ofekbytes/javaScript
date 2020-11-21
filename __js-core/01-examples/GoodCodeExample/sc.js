@@ -51,12 +51,26 @@ console.log(printAgeResult);
  * string with pure functional 
  **/ 
 function printAge(string, age) {
+
     const stAge = age > 8 ? 'old':'young';
 
     return `${string[0]}${age} years, he is "${stAge}"` ;
 }
 
 
+
+/***
+ * function concatenation
+ */
+function pringAgeConcatenationStyle(string, age) {
+
+    const stAge = age > 8 ? 'old':'young';
+
+    return "" + string + ""  + age + " year old, he is " +  stAge + "";
+}
+
+
+console.log("calling function normally \n" + pringAgeConcatenationStyle("the dog is ", 5) );
 
 
 

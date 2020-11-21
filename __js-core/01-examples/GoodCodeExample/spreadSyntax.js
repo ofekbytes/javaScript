@@ -20,6 +20,6 @@ pikachu['defense'] = stats.defense;
 
 console.log(pikachu, stats);
 
-
+    
 
 
