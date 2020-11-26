@@ -3,9 +3,6 @@
 **
 */
 
-// TODO 
-// split file - each example a file. ???
-
 const rec1 = {name: 'shalom', age: 30, state:'usa', single: false};
 const rec2 = {name: 'yifat', age: 40, state:'il', single: false};
 const rec3 = {name: 'yaron', age: 46, state:'il', single: false};
@@ -27,6 +24,7 @@ console.log(rec3);
 
 
 // example #2: 
+// computed property name
 // dispay console log data with variable name
 // add variable to an object.
 console.log('\n',{rec1, rec2, rec3});
