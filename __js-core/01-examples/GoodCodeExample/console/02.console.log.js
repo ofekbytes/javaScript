@@ -4,7 +4,7 @@
 */
 
 const rec1 = {name: 'shalom', age: 30, state:'usa', single: false};
-const rec2 = {name: 'yifat', age: 40, state:'il', single: false};
+const rec2 = {name: 'yifat', age: 40, state:'il', single: true};
 const rec3 = {name: 'yaron', age: 46, state:'il', single: false};
 
 console.log('02.console.log.js');
