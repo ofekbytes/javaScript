@@ -18,21 +18,22 @@ function showTime() {
     var h = today.getHours();
     var m = today.getMinutes();
     var s = today.getSeconds();
-    // add a zero in front of numbers<10
-    m = checkTime(m);
-    s = checkTime(s);
-    // console.log('curent time: ' + h + ":" + m + ":" + s);
-    return "curent time: " + h + ":" + m + ":" + s;
+    return "" + h + ":" + m + ":" + s;
 }
 
-// function runWhere()  {
-//     var x = 0;
-//     for(x=0; x<5;x++) {
-//         console.log(x+1 );
-//     }
+function runWhere()  {
+    // var x = 0;
+    // for(x=0; x<5;x++) {
+    //     console.log(x+1 );
+    // }
 
-//     console.trace('tace that');
-// }
+    console.log("current time " + showTime());
 
-// runWhere();
-// runWhere();
+    console.trace('tace that');
+
+    console.log("current time " + showTime());
+
+}
+
+runWhere();
+runWhere();
