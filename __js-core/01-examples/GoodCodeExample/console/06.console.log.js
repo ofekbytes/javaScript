@@ -18,20 +18,21 @@ function showTime() {
     var h = today.getHours();
     var m = today.getMinutes();
     var s = today.getSeconds();
-    return "" + h + ":" + m + ":" + s;
+    var ms = today.getMilliseconds();
+    return "\n" + h + ":" + m + ":" + s + ":" + ms;
 }
 
-function runWhere()  {
+function runWhere() {
     // var x = 0;
     // for(x=0; x<5;x++) {
     //     console.log(x+1 );
     // }
 
-    console.log("current time " + showTime());
+    console.log(showTime());
 
     console.trace('tace that');
 
-    console.log("current time " + showTime());
+    console.log(showTime());
 
 }
 
