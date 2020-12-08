@@ -4,12 +4,6 @@
 **
 */
 
-/**
- * 'text name' -or- 'text name ' + animal.name
- * "text name" -or- "text name " + animal.name 
- * ` ${animal.name} `
- */
-
 // object with animal data
 const animal = {
     name: 'uri',

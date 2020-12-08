@@ -22,7 +22,9 @@ const animal = {
 
 // object destructuring
 function showAnimal3({ name, type, age, legs}) {
-    return `:::Animal #3 Data::: name: ${animal.name}, type:${animal.type}, age:${animal.age}, legs:${animal.legs}`;
+    // return `:::Animal #3 Data::: name: ${animal.name}, type:${animal.type}, age:${animal.age}, legs:${animal.legs}`;
+    return `:::Animal #3 Data::: name: ${name}, type:${type}, age:${age}, legs:${legs}`;
+
 }
 
 

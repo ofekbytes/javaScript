@@ -4,11 +4,6 @@
 **
 */
 
-/**
- * 'text name' -or- 'text name ' + animal.name
- * "text name" -or- "text name " + animal.name 
- * ` ${animal.name} `
- */
 
 // object with animal data
 const animal = {
@@ -20,12 +15,13 @@ const animal = {
     single: true
 }
 
-// dispaly data with alot of use of 'animal' variable keyword.
-function showAnimal1(animal) {
-    return ':::Animal #1 Data::: ' + animal.name + ' , ' + animal.type + ' , ' + animal.age;
+
+// dispaly data with alot of use of `animal` variable keyword.
+function showAnimal(animal) {
+    return `Animal #0 Data: ${animal.name}, ${animal.type}, ${animal.age}`;
+    //return ':::Animal Data::: ' + animal.name + ' , ' + animal.type + ' , ' + animal.age ;
 }
 
 
-
 console.log('\n%c___Show Animal Basic, property keyword___', 'color: red; font-weight: bold');
-console.log(showAnimal1(animal));
+console.log(showAnimal(animal));
