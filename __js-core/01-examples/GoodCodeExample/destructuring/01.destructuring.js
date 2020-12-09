@@ -16,13 +16,14 @@ const animal = {
 }
 
 
-// dispaly data with alot of use of 'animal' variable keyword.
+// dispaly data with alot of use of 'animal' variable keyword. 
 function showAnimal1(animal) {
+    // // return a few property values - string concatenation - (without object destructuring)
     return ':::Animal #1 Data::: ' + animal.name + ' , ' + animal.type + ' , ' + animal.age;
 }
 
 
 
-console.log('\n%c___Show Animal Basic, property keyword___', 'color: red; font-weight: bold');
+console.log('\n%c___ Show Animal Basic, property keyword - string concatenation ___', 'color: red; font-weight: bold');
 console.log(showAnimal1(animal));
 
