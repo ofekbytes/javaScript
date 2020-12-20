@@ -17,10 +17,11 @@ const animal = {
 
 // dispaly data with alot of use of `animal` variable keyword.
 function showAnimal(animal) {
+    // // return a few property values - (without object destructuring)
     return `Animal #0 Data: ${animal.name}, ${animal.type}, ${animal.age}`;
     //return ':::Animal Data::: ' + animal.name + ' , ' + animal.type + ' , ' + animal.age ;
 }
 
 
-console.log('\n%c___Show Animal Basic, property keyword___', 'color: red; font-weight: bold');
+console.log('\n%c ___Show Animal Basic, property keyword ___', 'color: red; font-weight: bold');
 console.log(showAnimal(animal));
