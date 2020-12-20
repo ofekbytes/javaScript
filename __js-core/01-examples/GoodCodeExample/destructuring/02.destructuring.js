@@ -1,4 +1,3 @@
-
 /*
 ** 02.destructuring.js
 **

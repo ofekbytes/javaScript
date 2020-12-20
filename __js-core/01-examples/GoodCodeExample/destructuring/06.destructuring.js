@@ -31,8 +31,6 @@ function showAnimal5(animal) {
 }
 
 
-
-
 console.log('\n%c___Show Animal, pass all object to local variable by name___', 'color: red; font-weight: bold');
 console.log( showAnimal5(animal) );
 

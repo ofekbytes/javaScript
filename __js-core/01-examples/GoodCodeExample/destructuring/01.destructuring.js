@@ -1,4 +1,3 @@
-
 /*
 ** 01.destructuring.js
 **
@@ -16,6 +15,7 @@ const animal = {
 }
 
 
+// string concatenation
 // dispaly data with alot of use of 'animal' variable keyword.
 function showAnimal1(animal) {
     return ':::Animal #1 Data::: ' + animal.name + ' , ' + animal.type + ' , ' + animal.age;
@@ -23,6 +23,7 @@ function showAnimal1(animal) {
 
 
 
+console.log('\n%c___string concatenation___', 'color: red; font-weight: bold; font-size: 20px;');
 console.log('\n%c___Show Animal Basic, property keyword___', 'color: red; font-weight: bold');
 console.log(showAnimal1(animal));
 
