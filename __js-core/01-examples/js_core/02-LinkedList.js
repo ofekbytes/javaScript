@@ -122,6 +122,7 @@ function taskLinkedList() {
             while (currentNode.next !== null) {
                 console.log(`_[ ${index} ]_ ===> ${currentNode.element}`);
                 currentNode = currentNode.next;
+                index++;
             }    
             console.log(`_[ ${index} ]_ ===> ${currentNode.element}`); //print the last element.
 
@@ -206,17 +207,45 @@ function taskLinkedList() {
     } //
 
     
-//----------------------------------------------------
+//-----------------------------------------------------------//
 //   main() 
-//----------------------------------------------------
+//-----------------------------------------------------------//
     this.main = function(numbers, number) {
+
+        var index = 0;
+        var prev = 0;
+        for (prev = 0 , index=0; index < numbers.length; index++) {
+
+            // write first array
+            if (index === 0) {
+                this.add(numbers[index])
+            }
+            else {
+               prev = index -1;
+               if( ((numbers[index] + numbers[prev]) / 2 === number )  )
+               {
+                   this.add(number);
+                //    console.log(`number is equal add 10 between this value = ${number} `);
+               }
+               this.add(numbers[index]);
+            }
+
+            // console.log(` prev ==> ${numbers[prev]}  index ==> ${numbers[index]} `);
+        }
         
+        // print all linked list array.
+        this.printLinkedList();
+
+    // step #1: insert value to linked list.
+    // step #2: find value within 2 numbers
+
+
     } /// main ///
 
 
 
 //-----------------------------------------------------------//
-//  Temp Code  //
+//   Temp Code  //
 //-----------------------------------------------------------//        
 
     // add numbers[] to linkedList
@@ -249,16 +278,17 @@ function taskLinkedList() {
 //// taskLinkedList ////
 }
 
-
+//-----------------------------------------------------------//
+//   variables
+//-----------------------------------------------------------//    
+var number = 5;
+var numbers = [20, -10, 30, -10];
 
 var task = new taskLinkedList();
+task.main(numbers, number);
 
-var number = 10;
-var numbers = [10, 20, 30, 40];
 
 // console.log(`number == ${number}`);
 // console.table({numbers});
-
-
 //task.insertValueIntoLinkedList(numbers, number);
 
