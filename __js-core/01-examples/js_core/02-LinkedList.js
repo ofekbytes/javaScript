@@ -186,10 +186,11 @@ function taskLinkedList() {
      **/
 
 
+
     /**
      * 
      **/
-    this.insertValueIntoLinkedList = function(numbers, number) {
+    this.insertValueIntoLinkedList = function(numbers) {
         
         var currentNode = head;
         var sum = 0;
@@ -202,29 +203,48 @@ function taskLinkedList() {
 
             console.warn(numbers[index]);
         }
-        
+    } //
 
-// add numbers[] to linkedList
-// print source array
-// print total record
-// sort the array
-
-        if (currentNode === null) {
-            return -1;
-        }
-        else {
-            while (currentNode !== null) {
-                numberOne = currentNode.element;        
-                sum = sum + numberOne;
-                // sum = sum + (currentNode.element + currentNode.next.element);
-                // console.log(" *** " + currentNode.element + " **** " + (numberOne + numberOne) );
-                currentNode = currentNode.next;
-            }
-            
-            console.log(`sum:: ${sum}`);
-        }
-    }
     
+//----------------------------------------------------
+//   main() 
+//----------------------------------------------------
+    this.main = function(numbers, number) {
+        
+    } /// main ///
+
+
+
+//-----------------------------------------------------------//
+//  Temp Code  //
+//-----------------------------------------------------------//        
+
+    // add numbers[] to linkedList
+    // print source array
+    // print total record
+    // sort the array
+
+    // if (currentNode === null) {
+    //     return -1;
+    // }
+    // else {
+    //     while (currentNode !== null) {
+    //         numberOne = currentNode.element;        
+    //         sum = sum + numberOne;
+    //         // sum = sum + (currentNode.element + currentNode.next.element);
+    //         // console.log(" *** " + currentNode.element + " **** " + (numberOne + numberOne) );
+    //         currentNode = currentNode.next;
+    //     }
+        
+    //     console.log(`sum:: ${sum}`);
+    // }
+
+//-----------------------------------------------------------//
+//-----------------------------------------------------------//        
+
+
+
+
 
 //// taskLinkedList ////
 }
@@ -240,5 +260,5 @@ var numbers = [10, 20, 30, 40];
 // console.table({numbers});
 
 
-task.insertValueIntoLinkedList(numbers, number);
+//task.insertValueIntoLinkedList(numbers, number);
 
