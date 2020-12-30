@@ -3,12 +3,33 @@
 ---[JavaScripts links]---
 
 
+------[temp]------
+https://www.sololearn.com/
+
+https://www.w3schools.com/js/default.asp
+
+https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/
+
+https://docs.google.com/document/u/1/d/1T_NfCjnj2KJC7cw3NZr-ffEhiSonCxN5NMFzjRdXU1c/edit
+
+https://developer.mozilla.org/en-US/docs/Learn/Common_questions/set_up_a_local_testing_server
+
+https://developer.mozilla.org/en-US/docs/Learn/Common_questions/How_does_the_Internet_work
+
+https://developer.mozilla.org/en-US/docs/Learn/Common_questions/What_is_a_web_server
+------
+
+// Installing_basic_software
+https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/Installing_basic_software
+
+// Getting_started_with_the_web
+https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web
+
 // mozilla
 https://developer.mozilla.org/en-US/docs/Web/JavaScript
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide
 
 
-https://www.w3schools.com/js/default.asp
 
 
 // js - category
