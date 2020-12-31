@@ -42,7 +42,7 @@ ORDER THE EXAMPLE FILE/S NAMES
 -- Server (Node.js) 
 -- Databases (MongoDB, CouchDB) as their programming language.
 
-- JavaScript (JS) is a high-level, interpreted programming language that conforms to the ECMAScript specification. 
+- JavaScript (JS) is a high-level, lightweight, interpreted, interpreted, just-in-time compiled programming language that conforms to the ECMAScript specification. 
   JavaScript characterized as dynamic, weakly typed, prototype-based, multi-paradigm.
 
 - JavaScript process data, applications (mobile, desktop, games)
@@ -54,6 +54,10 @@ ORDER THE EXAMPLE FILE/S NAMES
   animated 2D/3D graphics, scrolling video jukeboxes, 
   or more—you can bet that JavaScript is probably involved.
 
+- JavaScript (JS) is a just-in-time compiled (JIT compilation) programming language with first-class functions.
+-- JIT compilation -- is a way of executing computer code that involves compilation during execution of a program 
+   (at run time, rather than before execution).
+
 .
 .
 02. JavaScript inside HTML with <script> tag
@@ -61,6 +65,13 @@ ORDER THE EXAMPLE FILE/S NAMES
 -- JavaScript on the web lives inside the HTML document. 
    In HTML, JavaScript code must be inserted between <script> and </script> tags:
 
+--- example:  script tag - <script> </script>
+
+    <script>
+        //
+        // JavaScript code 
+        //
+    </script>
 
 --- example: javascript inside html 
 

@@ -3,6 +3,10 @@
 ---[JavaScripts links]---
 
 
+ // Just in time compilation (JIT compilation)
+ https://en.wikipedia.org/wiki/Just-in-time_compilation
+
+
 ------[temp]------
 https://www.sololearn.com/
 
