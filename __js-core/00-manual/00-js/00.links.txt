@@ -3,6 +3,8 @@
 ---[JavaScripts links]---
 
 
+
+
  // Just in time compilation (JIT compilation)
  https://en.wikipedia.org/wiki/Just-in-time_compilation
 
@@ -63,6 +65,11 @@ https://developer.mozilla.org/en-US/docs/Web/API
 https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener
 
 
-// 
+// youtube playlist //
 
+// js - code //
+https://www.youtube.com/watch?v=IyDVvGmzTlo&list=PLGLfVvz_LVvTP2Op3wZlaGTUcgCfDuwn8
+
+// js - games //
+https://www.youtube.com/watch?v=rex2_9YBKAE&list=PLGLfVvz_LVvRxhuh3Qrtq-aMemglrcXnb
 
