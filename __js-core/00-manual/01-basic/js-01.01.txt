@@ -235,6 +235,14 @@ ORDER THE EXAMPLE FILE/S NAMES
 --- example: variable
     var name = value;
 
+    var xyz = 100;
+    xyz = 99;
+
+- Every written "instruction" or "command" is called a statement that end with semicolons.
+
+    var thisInstruction = 22;
+    var thisCommand = 33;
+
 .
 .
 07.01. variable declare
@@ -338,12 +346,17 @@ try , typeof , var , void , volatile , while , with , yield
 --- example: assign the variable name "number" a variable data type value of a number data type value 10
 
     var variable)name = variable_data_type_value;
-
     var number = 10;
 
 --- example: declare a variable without assignment. (variable declared value is equals to "undefined")
+
     var number; 
 
+--- example: declare a variable, assing 2 variable
+
+    var x, y = 10;
+    y = x;
+    console.log('x = ' + x + ' y = ' + y);
 
 .
 .

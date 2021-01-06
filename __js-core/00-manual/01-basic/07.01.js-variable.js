@@ -9,9 +9,15 @@ const constTitle = "const is a constants that never change (javaScript version: 
 const pi = 3.14;
 
 
-document.write("<h1>variable declare</h1><hr/>");
-document.write("<h2>output:</h2>");
-document.write("<div>variable_var ==> " + variable_var + "</div>");
-document.write("<div>variableLet ==> " + variableLet + "</div>");
-document.write("<div>constTitle ==> " + constTitle + "</div>");
-document.write("<div>pi ==> " + pi + "</div>");
+console.log("variable declare ");
+console.log("output:");
+console.log("variable_var ==> " + variable_var + "");
+console.log("variableLet ==> " + variableLet + "");
+console.log("constTitle ==> " + constTitle + "");
+console.log("pi ==> " + pi + "");
+
+
+var x, y = 10;
+x = y;
+console.log('Number variables: x= ' + x + ' y= ' + y);
+// console.log('x = ' + x + ' y = ' + y);
