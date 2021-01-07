@@ -325,7 +325,7 @@ try , typeof , var , void , volatile , while , with , yield
 
 -- undefined --> no value, not set/assigned yet 
 -- null --> null is nothing 
--- boolean --> true/false
+-- boolean --> true/false (yes/no), (false = null/undefined/empty-string
 -- string --> text value
 -- number --> number value
 -- symbol --> unique value
