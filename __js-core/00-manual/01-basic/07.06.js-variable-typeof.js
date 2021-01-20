@@ -1,8 +1,3 @@
-/*
-* file-name: 07.04.js-variable.js
-* description:
-*/
-
 var varUndefined;  // undefined //
 var varNull = null;
 var varBoolean = true;
@@ -24,6 +19,3 @@ console.log('06. letText ==> ' + typeof (letText) + ' ==> ' + letText);
 console.log('07. constText ==> ' + typeof (constText) + ' ==> ' + constText);
 console.log('08. constpi ==> ' + typeof (constpi) + ' ==> ' + constpi);
 console.log('09. number ==> ' + typeof (number) + ' ==> ' + number);
-/*
-* TODO: add all of the reserved words.
-*/

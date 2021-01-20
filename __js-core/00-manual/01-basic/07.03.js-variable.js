@@ -6,17 +6,17 @@
 var abstract = '__abstract';
 var argument = '__argument';
 let boolean = '__boolean';
-const await = '__await';           
+const await = '__await';
 var byte = "__byte";
 
-document.write("<h1>JavaScript Reserved Words</h1><hr/>");
-document.write("<h2>output:</h2>");
-document.write("<div>abstract ==> " + abstract + "</div>");
-document.write("<div>argument ==> " + argument + "</div>");
-document.write("<div>boolean ==> " + boolean + "</div>");
-document.write("<div>byte ==> " + await + "</div>");
-document.write("<div>byte ==> " + byte + "</div>");
+console.log("JavaScript Reserved Words<hr/>");
+console.log("output:");
+console.log("abstract ==> " + abstract + "");
+console.log("argument ==> " + argument + "");
+console.log("boolean ==> " + boolean + "");
+console.log("byte ==> " + await + "");
+console.log("byte ==> " + byte + "");
 
 /*
-* TODO: add all of the reserved words. 
+* TODO: add all of the reserved words.
 */

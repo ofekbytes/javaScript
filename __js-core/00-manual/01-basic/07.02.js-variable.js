@@ -6,7 +6,7 @@
 var stFIRSTName = 'ofekbytes';
 var stFirstName = 'ofekbytes';
 let stLastName = 'ofekbytes';
-const stCity = 'tel_aviv';           
+const stCity = 'tel_aviv';
 
 
 console.log("variable name");
@@ -14,4 +14,4 @@ console.log("output:");
 console.log("stFIRSTName ==> " + stFIRSTName + "");
 console.log("stFirstName ==> " + stFirstName + "");
 console.log("stLastName ==> " + stLastName + "");
-console.log("pi ==> " + pi + "");
+console.log("pi ==> " + pi + ""); // pi is not defined

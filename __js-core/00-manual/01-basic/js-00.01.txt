@@ -9,8 +9,12 @@ js-00.01.txt
 <:> ==> colon
 <;> ==> semicolon
 
-------------------------------------------------
 
+---[nice to know]---------------------------------------------
+
+** JavaScript is case sensitive. 
+
+** instruction = statement - Every written "instruction" is called a statement.
 
 
 

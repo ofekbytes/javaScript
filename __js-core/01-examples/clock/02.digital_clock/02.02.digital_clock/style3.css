@@ -1,0 +1,59 @@
+
+html {
+    margin: 0;
+    height: 100%;
+}
+
+/***
+* Pink with Icon (base64)
+*/
+
+
+#clock {
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    padding: 12px 24px;
+    border: 2px solid #c416be;
+    border-radius: 8px;
+    background: #db29ff;
+    background: -webkit-gradient(linear, left top, left bottom, from(#db29ff), to(#c4162d));
+    background: -moz-linear-gradient(top, #db29ff, #c4162d);
+    background: linear-gradient(to bottom, #db29ff, #c4162d);
+    -webkit-box-shadow: #ff30b7 0px 0px 40px 0px;
+    -moz-box-shadow: #ff30b7 0px 0px 40px 0px;
+    box-shadow: #ff30b7 0px 0px 40px 0px;
+    text-shadow: #730d0d 1px 1px 1px;
+    font: normal normal bold 20px arial;
+    color: #ffffff;
+    text-decoration: none;
+}
+#clock:hover,
+#clock:focus {
+    border: 2px solid #ff23ff;
+    background: #ff31ff;
+    background: -webkit-gradient(linear, left top, left bottom, from(#ff31ff), to(#eb1a36));
+    background: -moz-linear-gradient(top, #ff31ff, #eb1a36);
+    background: linear-gradient(to bottom, #ff31ff, #eb1a36);
+    color: #ffffff;
+    text-decoration: none;
+}
+#clock:active {
+    background: #831999;
+    background: -webkit-gradient(linear, left top, left bottom, from(#831999), to(#c4162d));
+    background: -moz-linear-gradient(top, #831999, #c4162d);
+    background: linear-gradient(to bottom, #831999, #c4162d);
+}
+#clock:before{
+    content:  "\0000a0";
+    display: inline-block;
+    height: 24px;
+    width: 24px;
+    line-height: 24px;
+    margin: 0 4px -6px -4px;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAqElEQVRIicWU0Q2DMAxEHxEDME/VcboIUzEXC6T9coUCRmdwxEkoBoztu4QbgEJHWPHqvK8ZccugZMdnDW5jyC54hJaWSv8DTEp+lEEBZuALLGqDyGXFV+Al5IdO0bb4W8jfPfRwNLky0D/IliUk0SVZvOLg24aXI1vFYxLZemuTFXj7IX1o6+M/WstEtoootmZ3CrPrerGRPI13nxJ3mxxgdLqnoqtEP9D6K5VU3jlWAAAAAElFTkSuQmCC") no-repeat left center transparent;
+    background-size: 100% 100%;
+}
