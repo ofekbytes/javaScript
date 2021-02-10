@@ -338,6 +338,12 @@ try , typeof , var , void , volatile , while , with , yield
 -- symbol --> unique value
               https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Symbol
 -- object --> key-value pair (key:value)
+-- bigint --> BigInt is a built-in object that provides a way to represent whole numbers larger than 253 - 1, 
+              which is the largest number JavaScript can reliably represent with the Number primitive 
+              and represented by the Number .MAX_SAFE_INTEGER constant. 
+              BigInt can be used for arbitrarily large integers.
+              https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/BigInt
+              https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/BigInt/asIntN
 
 --- example: variable name
     <07.04.js-variable.html>
@@ -525,6 +531,8 @@ try , typeof , var , void , volatile , while , with , yield
 
 --- example: variable math - arithmetic operators
     <08.01.variable_math.html> 
+    <08.01.variable_math.js> 
+    <08.02.variable_math.js> 
 
 .
 .
