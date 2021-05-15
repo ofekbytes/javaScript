@@ -36,14 +36,20 @@ console.log(text02);
 // new line
 console.log(`function template literals example`);
 
+/**************************************************************************************************************/
+
+
 
 /*** 
- * funtion  
+ * function  
  **/ 
 const printAgeResult = printAge `the dog age is ${animal.age}`;
 
 // print result
 console.log(printAgeResult);
+
+/**************************************************************************************************************/
+
 
 
 /***
@@ -54,8 +60,13 @@ function printAge(string, age) {
 
     const stAge = age > 8 ? 'old':'young';
 
-    return `${string[0]}${age} years, he is "${stAge}"` ;
+    // return `${string[0]} is a ${age} years, he is "${stAge}"` ;
+    return `${string} is a ${age} years, he is "${stAge}"` ;
 }
+
+console.log(printAge("jaron",3));
+
+/**************************************************************************************************************/
 
 
 
@@ -69,14 +80,7 @@ function pringAgeConcatenationStyle(string, age) {
     return "" + string + ""  + age + " year old, he is " +  stAge + "";
 }
 
-
 console.log("calling function normally \n" + pringAgeConcatenationStyle("the dog is ", 5) );
 
-
-
-
-
-
-
-
+/**************************************************************************************************************/
 

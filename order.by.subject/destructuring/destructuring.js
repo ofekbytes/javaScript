@@ -69,6 +69,7 @@ function showAnimal5(animal) {
 
 
 
+
 // showAnimal0();
 console.log('\n%c___Show Animal Basic, property keyword___', 'color: red; font-weight: bold');
 console.log( showAnimal0(animal) );
