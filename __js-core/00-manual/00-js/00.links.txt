@@ -1,9 +1,14 @@
 
 
+---[Java links]---
+
+https://www.youtube.com/watch?v=DUg2SWWK18I
+
+https://www.youtube.com/watch?v=soGRyl9ztjI
+
+https://www.youtube.com/channel/UCYt1sfh5464XaDBH0oH_o7Q
+
 ---[JavaScripts links]---
-
-
-
 
  // Just in time compilation (JIT compilation)
  https://en.wikipedia.org/wiki/Just-in-time_compilation

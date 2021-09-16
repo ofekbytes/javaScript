@@ -1,4 +1,4 @@
-//// 03.console.log.js ////
+//// 01.console.log.js ////
 
 const rec1 = { name: 'shalom', age: 30, state: 'usa', single: true };
 const rec2 = { name: 'yifat', age: 40, state: 'il', single: false };
