@@ -21,3 +21,5 @@ console.table([rec1]);
 console.log("\n----[console.dir]----------------");
 console.dir({ rec1 });
 
+console.log("\n----[console.dirxml]----------------");
+console.dirxml( {rec1} );
