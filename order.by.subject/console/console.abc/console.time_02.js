@@ -1,25 +1,22 @@
 
 
-console.time("sp");
+// ----[console.time]------------
 
-console.info("Sp Start");
+console.time("take_1");
+console.info("Start take_1");
 console.log("01.02");
 console.warn("01.03");
 console.error("01.04");
 console.debug("01.05");
-console.timeEnd("sp");
+console.info("end take_1");
+console.timeEnd("take_1");
 
-/***
- * BUG: 
- * erase all variable 
- ***/ 
-console.clear(); 
 
-console.time("sp");
-console.info("02.01");
+console.time("take_2");
+console.info("Start take_2");
 console.log("02.02");
 console.warn("02.03");
 console.error("02.04");
 console.debug("Sp End");
-
-console.timeEnd("sp");
+console.info("end take_2");
+console.timeEnd("take_2");

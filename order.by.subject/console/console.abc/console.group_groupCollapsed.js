@@ -17,6 +17,7 @@ console.group("#2 - Group-Title");
 console.groupEnd();
 console.log();
 
+console.groupCollapsed("All group #3 Collapsed ");
 console.group("#3 - Group-Title");
 console.debug("01");
     console.group("#3.1 - Group-Title");
@@ -26,4 +27,5 @@ console.debug("01");
         console.groupEnd();
     console.groupEnd();
 console.error("01.03");
+console.groupEnd();
 console.groupEnd();

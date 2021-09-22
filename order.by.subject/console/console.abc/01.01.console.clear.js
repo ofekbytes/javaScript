@@ -1,4 +1,5 @@
 
+var luckyNumber = 25;
 
 ///----[console.clear()]------------
 
