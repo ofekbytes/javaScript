@@ -22,6 +22,7 @@ console.count("car"); //2
 console.count(); //1
 console.count(); //2
 
+
 // ---[summary]------------
 // console.count(); /// "default"
 // console.countReset(); /// "default"

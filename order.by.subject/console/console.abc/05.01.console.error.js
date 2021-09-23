@@ -1,5 +1,5 @@
 
 
-///----[console.count()]------------
+///----[console.error()]------------
 
-console.error("message");
+console.error(" 🔥 🔥 This is an error message 🔥 🔥 ");

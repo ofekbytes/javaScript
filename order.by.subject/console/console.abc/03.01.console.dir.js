@@ -4,6 +4,6 @@
 
 console.log("console.dir()");
 
-const record = { name: 'shalom', age: 30, state: 'usa', single: 'false' };
+const dir = { name: 'shalom', age: 30, state: 'usa', single: 'false' };
 
-console.dir({record}); /// object / array
+console.dir({dir}); /// object / array

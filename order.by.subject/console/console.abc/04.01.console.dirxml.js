@@ -4,6 +4,6 @@
 
 console.log("console.dirxml()");
 
-const record = { name: 'shalom', age: 30, state: 'usa', single: false };
+const dirxml = { name: 'shalom', age: 30, state: 'usa', single: false };
 
-console.dirxml( {record} );
+console.dirxml( {dirxml} );
