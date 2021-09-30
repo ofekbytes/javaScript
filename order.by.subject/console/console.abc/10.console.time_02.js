@@ -20,3 +20,12 @@ console.error("02.04");
 console.debug("Sp End");
 console.info("end take_2");
 console.timeEnd("take_2");
+
+
+// ---[summary]------------
+// console.time("Take_1");
+// ...
+// console.timeEnd("Take_1");
+// //----[tip]------------//
+// //millisecond (ms) = second * 1000
+// //second = millisecond (ms) / 1000

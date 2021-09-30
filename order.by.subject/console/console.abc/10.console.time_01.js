@@ -14,3 +14,12 @@ console.error("02.04");
 console.debug("Sp End");
 
 console.timeEnd("pageLoadTime");
+
+
+// ---[summary]------------
+// console.time("Take_1");
+// ...
+// console.timeEnd("Take_1");
+// //----[tip]------------//
+// //millisecond (ms) = second * 1000
+// //second = millisecond (ms) / 1000
