@@ -1,4 +1,3 @@
-
 /***
 * script.js
 */
@@ -9,17 +8,15 @@ function js() {
 }
 
 function pfh() {
-var fh = document.getElementById("fhh").value;
-var fm = document.getElementById("fmm").value;
-  document.getElementById("fromTime").innerHTML = " " + fh + " : " + fm;
-  return fh+":"+fm;
+var fh = document.getElementById("startTime").value;
+  document.getElementById("fromTime").innerHTML = fh;
+  return fh;
 }
 
 function tfh() {
-var th = document.getElementById("thh").value;
-var tm = document.getElementById("tmm").value;
-  document.getElementById("toTime").innerHTML = " " + th + " : " + tm;
-    return th+":"+tm;
+var th = document.getElementById("endTime").value;
+  document.getElementById("toTime").innerHTML = th;
+    return th;
 }
 
 function diff(start, end) {
@@ -39,19 +36,18 @@ function diff(start, end) {
     return (hours <= 9 ? "0" : "") + hours + ":" + (minutes <= 9 ? "0" : "") + minutes;
 }
 
+
 function sub() {
-	
 	var ft = pfh(); 
 	var tt = tfh();
 	var result;
 	
 	console.log("ft " + ft + " tt " + tt);
-	
 	result = diff(ft,tt);
-    console.log(" result == " + result );
-    document.getElementById("result").innerHTML = result;
+	console.log(" result == " + result );
+
+  if( (result < 0) || (result === null) || (result === undefined) | (result === "NaN:NaN") ) {
+    result = "please enter start/end hour";
+  }
+	document.getElementById("total").innerHTML = result	
 }
-
-
-
-
